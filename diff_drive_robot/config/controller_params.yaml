@@ -1,0 +1,19 @@
+/**:
+  ros__parameters:
+    wheel_radius: 0.1
+    wheel_separation: 0.35
+    max_rpm: 100.0
+    
+    # Publishing frequencies
+    publish_rate: 50.0
+    
+    # Control parameters
+    linear_scale: 1.0
+    angular_scale: 1.0
+    
+    # Safety limits
+    max_linear_velocity: 1.0
+    max_angular_velocity: 2.0
+    
+    # Timeout for commands
+    cmd_vel_timeout: 0.5

@@ -1,0 +1,19 @@
+/**:
+  ros__parameters:
+    # Linear motion PID parameters
+    kp_linear: 0.5
+    ki_linear: 0.0
+    kd_linear: 0.1
+    
+    # Angular motion PID parameters
+    kp_angular: 1.0
+    ki_angular: 0.0
+    kd_angular: 0.2
+    
+    # Navigation parameters
+    distance_threshold: 0.1  # meters
+    angle_threshold: 0.1     # radians
+    
+    # Velocity limits
+    max_linear_velocity: 0.5  # m/s
+    max_angular_velocity: 1.0 # rad/s
